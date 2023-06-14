@@ -55,7 +55,10 @@ class _HomeState extends State<Home> {
       backgroundColor: const Color.fromRGBO(68, 67, 67, 1),
       appBar: AppBar(
         backgroundColor: Colors.black,
-        title: const Text('TAPA DO DIA', style: TextStyle(fontSize: 30)),
+        title: const Text('TAPA DO DIA',
+            style: TextStyle(
+              fontSize: 30,
+            )),
         titleTextStyle: const TextStyle(color: Colors.white),
         centerTitle: true,
       ),

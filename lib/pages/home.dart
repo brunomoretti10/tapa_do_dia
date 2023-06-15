@@ -39,7 +39,8 @@ class _HomeState extends State<Home> {
     'É preciso passar pela escuridão pra apreciar o nascer do sol.',
     'Quem não tem atitude dorme com a vontade.',
     'Eu errei mais de 9.000 arremessos na minha carreira. Perdi quase 300 jogos. Em 26 oportunidades, confiaram em mim para fazer o arremesso da vitória e eu errei. Eu falhei muitas e muitas vezes na minha vida. E é por isso que tenho sucesso. - Michael Jordan',
-    'Viva sua vida do jeito que acha certo, antes que seu tempo esgote.'
+    'Viva sua vida do jeito que acha certo, antes que seu tempo esgote.',
+    'Não estenda a mão para quem não está disposto a ser ajudado.'
   ];
 
   void _generateText() {

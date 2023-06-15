@@ -25,7 +25,7 @@ class _HomeState extends State<Home> {
     'O problema não é a piscina ser rasa, é a sua teimosia em querer mergulhar fundo onde a água só vai até a canela.',
     'Não complique sua vida, um adeus dói muito menos do que viver morrendo aos poucos.',
     'Não culpe um palhaço por agir como um palhaço. Pergunte a si mesmo o porquê você continua indo ao circo. ',
-    'Nunca dê a pessoa o poder de voltar quandos quiser.',
+    'Nunca dê a pessoa o poder de voltar quando quiser.',
     'Prato muito disputado a gente deixa pra quem tá passando fome.',
     'Para o seu próprio bem: Pare de fuçar a vida de quem só te faz mal, se preserve.',
     'Deixe ir... se quisesse estar com você, estaria.',
@@ -53,14 +53,14 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromRGBO(68, 67, 67, 1),
+      backgroundColor: Colors.black,
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.white,
         title: const Text('TAPA DO DIA',
             style: TextStyle(
               fontSize: 30,
             )),
-        titleTextStyle: const TextStyle(color: Colors.white),
+        titleTextStyle: const TextStyle(color: Colors.black),
         centerTitle: true,
       ),
       body: Center(
@@ -77,7 +77,7 @@ class _HomeState extends State<Home> {
               _message,
               style: const TextStyle(fontSize: 20, color: Colors.white),
             ),
-            const SizedBox(height: 40),
+            const SizedBox(height: 50),
             ElevatedButton(
               onPressed: () => _generateText(),
               child: const Text('Nova Frase'),
